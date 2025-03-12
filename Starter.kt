@@ -20,11 +20,8 @@ fun calculateProfitForCallOrPutInTheMoney(): Double {
         return 0.0
     }
     
-    // Calculate the difference between the future price and the strike price
-    val difference = futurePrice - strikePrice
-    
-    // Calculate profit per contract: absolute value of the difference minus the premium paid
-    val profitPerContract = abs(difference) - premiumPaidPerContract
+    // Calculate the profit per contract
+    val profitPerContract = abs(futurePrice - strikePrice) - premiumPaidPerContract
     
     // Calculate total profit: profit per contract multiplied by the number of contracts bought
     val totalProfit = profitPerContract * numberOfContractsBought
