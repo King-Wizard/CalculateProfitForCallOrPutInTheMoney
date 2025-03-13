@@ -1,5 +1,7 @@
 import kotlin.math.abs
 
+// https://tinyurl.com/y59xv8rj
+
 fun calculateProfitForCallOrPutInTheMoney(): Double {
     // Input values for the call or put option
     println("Type the strike price:")
@@ -20,7 +22,7 @@ fun calculateProfitForCallOrPutInTheMoney(): Double {
         return 0.0
     }
     
-    // Calculate the profit per contract
+    // Calculate profit per contract
     val profitPerContract = abs(futurePrice - strikePrice) - premiumPaidPerContract
     
     // Calculate total profit: profit per contract multiplied by the number of contracts bought
@@ -30,6 +32,8 @@ fun calculateProfitForCallOrPutInTheMoney(): Double {
 }
 
 fun main() {
-    val profit = calculateProfitForCallOrPutInTheMoney()
-    println("\nTotal profit: $profit")
+    while(true){
+      val profit = calculateProfitForCallOrPutInTheMoney()
+      println("\nTotal profit: $profit \n")
+    }
 }
