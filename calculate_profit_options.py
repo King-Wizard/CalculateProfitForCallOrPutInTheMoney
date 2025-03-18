@@ -1,5 +1,7 @@
 # https://tinyurl.com/y59xv8rj
 
+# https://www.online-python.com/
+
 def calculateProfitForBuyCallOrPutInTheMoney():
     # Input values for the call or put option
     strikePrice = float(input("Type the strike price:"))
