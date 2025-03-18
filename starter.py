@@ -1,6 +1,6 @@
 # https://tinyurl.com/y59xv8rj
 
-def calculateProfitForCallOrPutInTheMoney():
+def calculateProfitForBuyCallOrPutInTheMoney():
     # Input values for the call or put option
     strikePrice = float(input("Type the strike price:"))
     
@@ -20,5 +20,5 @@ def calculateProfitForCallOrPutInTheMoney():
 
 
 while(True):
-    profit = calculateProfitForCallOrPutInTheMoney()
+    profit = calculateProfitForBuyCallOrPutInTheMoney()
     print(f"\nTotal profit: {profit}\n")
