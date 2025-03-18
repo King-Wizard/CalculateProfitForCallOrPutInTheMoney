@@ -1,3 +1,6 @@
+import locale
+locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')
+
 # https://tinyurl.com/y59xv8rj
 
 # https://www.online-python.com/
@@ -23,4 +26,4 @@ def calculateProfitForBuyCallOrPutInTheMoney():
 
 while(True):
     profit = calculateProfitForBuyCallOrPutInTheMoney()
-    print(f"\nTotal profit: {profit}\n")
+    print(f"\nTotal profit: {profit:.2f}\n")
