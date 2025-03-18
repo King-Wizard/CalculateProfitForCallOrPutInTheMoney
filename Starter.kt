@@ -2,7 +2,7 @@ import kotlin.math.abs
 
 // https://tinyurl.com/y59xv8rj
 
-fun calculateProfitForCallOrPutInTheMoney(): Double {
+fun calculateProfitForBuyCallOrPutInTheMoney(): Double {
     // Input values for the call or put option
     println("Type the strike price:")
     val strikePrice = readLine()?.toDoubleOrNull()
@@ -33,7 +33,7 @@ fun calculateProfitForCallOrPutInTheMoney(): Double {
 
 fun main() {
     while(true){
-      val profit = calculateProfitForCallOrPutInTheMoney()
+      val profit = calculateProfitForBuyCallOrPutInTheMoney()
       println("\nTotal profit: $profit \n")
     }
 }
