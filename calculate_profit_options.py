@@ -2,8 +2,8 @@ import locale
 locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')
 
 # https://tinyurl.com/y59xv8rj
-
 # https://www.online-python.com/
+# https://tinyurl.com/mrxwyyz8
 
 def calculateProfitForBuyCallOrPutInTheMoney():
     # Input values for the call or put option
